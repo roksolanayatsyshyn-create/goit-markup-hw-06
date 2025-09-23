@@ -1,0 +1,263 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  color: var(--slate);
+  cursor: pointer;
+  font-weight: 400;
+  font-style: normal;
+  background-color: var(--white);
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+}
+ul {
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+.container {
+  max-width: 1158px;
+  padding-left: ;
+  padding-right: ;
+  margin-left: ;
+  margin-right:;
+  
+}
+
+/* ========================Header */
+.page-header {
+  
+}
+
+.container-nav{
+  display: flex;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+  margin-right: 76px;
+  margin-left: 156px;
+}
+.main-nav {
+ 
+}
+.link {
+  text-decoration: none;
+  font-style: normal;
+  
+}
+.link-studio{
+  margin-right: 40px;
+}
+.link-portfolio{
+  margin-right: 40px;
+}
+.link-contacts{
+  margin-right: 40px;
+}
+.main-nav{
+  display: flex;
+}
+.main-nav-list{
+  display: flex;
+  margin-right: 332px;
+  list-style: none;
+}
+.main-nav .link {
+  font-weight: 500;
+  color: var(--navy-blue);
+}
+
+.main-nav .link:hover,
+.main-nav .link:focus {
+  color: var(--ocean);
+  outline: none;
+}
+.contacts {
+display: flex;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--slate);
+}
+.contacts-list{
+  list-style: none;
+  display: flex;
+}
+.contacts-link {
+  font-style: normal;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--slate);
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--ocean);
+  outline: none;
+}
+.contacts-link-email{
+  margin-right: 40px;
+}
+/*==================== /Header */
+
+/* ================section Effective solutions */
+.effective-solutions {
+  background: var(--navy-blue);
+  
+}
+.effective-solutions-title {
+  
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: var(--cloud);
+  padding: 188px 472px 292px 472px;
+  margin-bottom: 48px;
+  
+}
+.button-order {
+  margin: 0 635px 178px 636px;
+  padding: 16px 32px;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  width: 169px;
+  height: 56px;
+  background-color: var(--iris);
+  color: var(--white);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.button-order:hover,
+.button-order:focus {
+  background-color: var(--ocean);
+}
+/*==================== /section Effective solutions */
+
+/* ====================Section principles of works */
+.principles-of-works {
+}
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  border:none;
+  white-space: nowrap;  
+}
+.principles-of-works-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--navy-blue);
+}
+.principles-of-works-text {
+}
+/* ===================== /Section principles of works */
+
+
+/* ====================Section our team */
+  background-color: var(--cloud);
+}
+.our-team-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+}
+.our-team-member {
+  background-color: var(--white);
+}
+.our-team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--navy-blue);
+}
+.our-team-role {
+  text-align: center;
+}
+/*==================== /Section our team */
+
+/* ====================Section our portfolio */
+.our-portfolio {
+}
+.our-portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+}
+.our-portfolio-product {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--navy-blue);
+}
+.our-portfolio-category {
+}
+/* ====================/Section our portfolio */
+
+/* ====================footer */
+.page-footer {
+}
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+.logo-footer-highlight {
+  color: var(--cloud);
+}
+.footer-text {
+  color: var(--cloud);
+}
+/*==================== /footer */
