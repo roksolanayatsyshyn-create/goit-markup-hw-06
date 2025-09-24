@@ -44,13 +44,16 @@ a {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 .container {
   max-width: 1158px;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 15;
+  padding-right: 15;
   margin-left: 0;
   margin-right: 0;
+  overflow: hidden;
 }
 
 /* ========================Header */
@@ -68,7 +71,6 @@ img {
   text-transform: uppercase;
   color: var(--iris);
   margin-right: 76px;
-  margin-left: 156px;
 }
 .main-nav .link {
   text-decoration: none;
@@ -82,7 +84,6 @@ img {
   margin-right: 40px;
 }
 .link-contacts {
-  margin-right: 40px;
 }
 .main-nav {
   display: flex;
@@ -208,6 +209,8 @@ img {
 .our-team {
   background-color: var(--cloud);
   padding-top: 120px;
+  padding-bottom: 120px;
+  margin-bottom: 84px;
 }
 .our-team-list {
   padding-left: 15px;
