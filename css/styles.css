@@ -144,12 +144,12 @@ img {
   padding-left: auto;
   padding-right: auto;
   padding-top: 188px;
-  padding-bottom: 178px;
+  padding-bottom: 188px;
   box-sizing: border-box;
   margin-bottom: 120px;
 }
 .effective-solutions-title {
-  width-max: 496px;
+  max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -160,7 +160,10 @@ img {
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   justify-content: center;
   padding: 16px 32px;
   border-radius: 4px;
@@ -192,6 +195,9 @@ img {
   border: none;
   white-space: nowrap;
 }
+.principles-of-works {
+  padding: 0 120px;
+}
 .principles-of-works-list {
   display: flex;
   padding-left: 15px;
@@ -200,6 +206,7 @@ img {
   margin-bottom: 120px;
 }
 .principles-of-works-title {
+  width: calc((100%-72px) / 4);
   text-align: center;
   font-weight: 500;
   font-size: 20px;
@@ -219,10 +226,16 @@ img {
   margin-bottom: 84px;
 }
 .our-team-list {
+  width: calc((100% - 72px) / 4);
+  background-color: var(--white);
   padding-left: 15px;
   padding-right: 15px;
   display: flex;
   gap: 24px;
+  border-radius: 0px 0px 4px 4px;
+}
+.container-member-team {
+  padding: 32px 0;
 }
 .our-team-title {
   text-align: center;
@@ -235,7 +248,6 @@ img {
   margin-bottom: 72px;
 }
 .our-team-member {
-  background-color: var(--white);
 }
 .our-team-name {
   font-weight: 500;
@@ -243,6 +255,7 @@ img {
   line-height: 1.2;
   text-align: center;
   color: var(--navy-blue);
+  margin-bottom: 8px;
 }
 .our-team-role {
   text-align: center;
@@ -251,7 +264,7 @@ img {
 
 /* ====================Section our portfolio */
 .our-portfolio {
-  padding: 188px 472px 178px 472px;
+  padding: 120px 0px 120px 0px;
 }
 .our-portfolio-title {
   font-weight: 700;
@@ -260,6 +273,22 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: var(--navy-blue);
+  margin-bottom: 72px;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.portfolio-img {
+  width: calc((100% - 48px) / 3);
+}
+.portfolio-list {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 .our-portfolio-product {
   font-weight: 500;
@@ -273,8 +302,11 @@ img {
 /* ====================footer */
 .page-footer {
   background-color: var(--navy-blue);
+  padding: 100px 0;
 }
 .logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -282,11 +314,15 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+  width: 115px;
+  height: 24px;
 }
 .logo-footer-highlight {
   color: var(--cloud);
 }
 .footer-text {
   color: var(--cloud);
+  width: 264px;
+  height: 72px;
 }
 /*==================== /footer */
