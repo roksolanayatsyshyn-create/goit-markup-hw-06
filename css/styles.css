@@ -49,15 +49,20 @@ img {
 }
 .container {
   max-width: 1158px;
-  padding-left: 15;
-  padding-right: 15;
-  margin-left: 0;
-  margin-right: 0;
+  padding: 0 15px;
+  margin: 0 auto;
   overflow: hidden;
 }
 
 /* ========================Header */
-
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+  max-width: 1158px;
+  display: flex;
+}
+.container-header {
+  display: flex;
+}
 .container-nav {
   max-width: 1158px;
   display: flex;
@@ -87,10 +92,11 @@ img {
 }
 .main-nav {
   display: flex;
+  align-items: center;
 }
 .main-nav-list {
   display: flex;
-  margin-right: 332px;
+  gap: 40px;
   list-style: none;
 }
 .main-nav-list .link {
