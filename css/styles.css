@@ -205,7 +205,7 @@ img {
   margin-bottom: 120px;
 }
 .principle-of-works {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .principles-of-works-title {
   margin-bottom: 8px;
@@ -235,7 +235,7 @@ img {
   gap: 24px;
 }
 .our-team-member {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 }
@@ -308,7 +308,8 @@ img {
 /* ====================footer */
 .page-footer {
   background-color: var(--navy-blue);
-  padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .logo-footer {
   display: inline-block;
