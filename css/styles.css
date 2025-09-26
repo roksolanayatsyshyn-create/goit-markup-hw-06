@@ -48,7 +48,8 @@ img {
   height: auto;
 }
 .container {
-  width: 1158px;
+  max-width: 1158px;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
   overflow: hidden;
@@ -299,7 +300,6 @@ img {
   color: var(--navy-blue);
   margin-bottom: 8px;
 }
-.our-portfolio-category 
 /* ====================/Section our portfolio */
 
 /* ====================footer */
