@@ -192,8 +192,6 @@ img {
 }
 .principles-of-works-list {
   display: flex;
-  padding-left: 15px;
-  padding-right: 15px;
   gap: 24px;
   margin-bottom: 120px;
 }
