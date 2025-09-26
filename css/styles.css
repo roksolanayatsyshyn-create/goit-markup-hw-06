@@ -222,8 +222,7 @@ img {
 /* ====================Section our team */
 .our-team {
   background-color: var(--cloud);
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0 120px 0;
   margin-bottom: 84px;
 }
 .our-team-list {
@@ -306,8 +305,7 @@ img {
 /* ====================footer */
 .page-footer {
   background-color: var(--navy-blue);
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 0;
 }
 .logo-footer {
   display: inline-block;
