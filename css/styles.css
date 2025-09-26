@@ -186,6 +186,7 @@ img {
   overflow: hidden;
   clip: rect(0 0 0 0);
   white-space: nowrap;
+  clip-path: inset(100%);
 }
 .principles-of-works {
   padding: 120px 0;
