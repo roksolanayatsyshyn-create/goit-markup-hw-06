@@ -58,9 +58,7 @@ img {
 /* ========================Header */
 .page-header {
   border-bottom: 1px solid #e7e9fc;
-  max-width: 1158px;
   display: flex;
-
 }
 .container-header {
   display: flex;
@@ -86,6 +84,7 @@ img {
 .main-nav {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 .main-nav-list {
   display: flex;
@@ -95,7 +94,6 @@ img {
 .main-nav-list .link {
   font-weight: 500;
   color: var(--navy-blue);
-  padding: 24px 0;
 }
 
 .main-nav-list .link:hover,
@@ -104,18 +102,18 @@ img {
   outline: none;
 }
 .contacts {
+  padding: 24px 0;
   display: flex;
   letter-spacing: 0.02em;
   font-size: 16px;
   line-height: 1.5;
   color: var(--slate);
   white-space: nowrap;
+  margin-left: auto;
 }
 .contacts-list {
   display: flex;
   gap: 40px;
-  margin-left: auto;
-  margin-right: 0;
 }
 .contacts-link {
   font-style: normal;
@@ -130,7 +128,6 @@ img {
   outline: none;
 }
 
-}
 /*==================== /Header */
 
 /* ================section Effective solutions */
