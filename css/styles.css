@@ -86,8 +86,7 @@ img {
 .link-portfolio {
   margin-right: 40px;
 }
-.link-contacts {
-}
+
 .main-nav {
   display: flex;
   align-items: center;
@@ -238,7 +237,7 @@ img {
   flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
-}
+
 .our-team-title {
   text-align: center;
   font-weight: 700;
@@ -289,11 +288,10 @@ img {
 .portfolio-list-category {
   width: calc((100% - 48px) / 3);
 }
-.product-list{
+.product-list {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-.portfolio-img {
 }
 .our-portfolio-product {
   font-weight: 500;
@@ -330,6 +328,4 @@ img {
 .footer-text {
   color: var(--cloud);
   width: 264px;
-  height: 72px;
 }
-/*==================== /footer */
