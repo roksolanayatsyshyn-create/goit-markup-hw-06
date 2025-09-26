@@ -60,6 +60,7 @@ img {
   border-bottom: 1px solid #e7e9fc;
   max-width: 1158px;
   display: flex;
+
 }
 .container-header {
   display: flex;
@@ -135,8 +136,6 @@ img {
 /* ================section Effective solutions */
 .effective-solutions {
   background: var(--navy-blue);
-  padding-left: auto;
-  padding-right: auto;
   padding-top: 188px;
   padding-bottom: 188px;
   box-sizing: border-box;
