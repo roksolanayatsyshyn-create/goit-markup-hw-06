@@ -79,12 +79,12 @@ img {
   text-decoration: none;
   font-style: normal;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .main-nav {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 .main-nav-list {
   display: flex;
@@ -145,6 +145,8 @@ img {
   text-align: center;
   color: var(--cloud);
   margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .button-order {
   margin-top: 0;
@@ -219,8 +221,6 @@ img {
 }
 .our-team-list {
   background-color: var(--white);
-  padding-left: 15px;
-  padding-right: 15px;
   display: flex;
   gap: 24px;
 }
