@@ -129,7 +129,7 @@ img {
   color: var(--ocean);
   outline: none;
 }
-.contacts-link- .link-studio {
+.link-studio {
   position: relative;
   color: var(--ocean);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -162,7 +162,7 @@ img {
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
-  block-size: cover;
+  background-size: cover;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .effective-solutions-title {
@@ -317,6 +317,9 @@ img {
 .social-icon-link:focus {
   background-color: var(--ocean);
 }
+.social-icon {
+  fill: var(--cloud);
+}
 /*==================== /Section our team */
 
 /* ====================Section our portfolio */
@@ -341,7 +344,18 @@ img {
 }
 .portfolio-list-category {
   width: calc((100% - 48px) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.portfolio-list-category:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  transform: translateY(0%);
+  opacity: 1;
+}
+.portfolio-list-img {
+  position: relative;
+  overflow: hidden;
+}
+
 .product-list {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
@@ -353,6 +367,22 @@ img {
   line-height: 1.2;
   color: var(--navy-blue);
   margin-bottom: 8px;
+}
+.overlay-text {
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cloud);
+  padding: 40px 32px;
+  background-color: var(--iris);
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
 }
 /* ====================/Section our portfolio */
 
