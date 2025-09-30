@@ -136,7 +136,6 @@ img {
   padding-top: 188px;
   padding-bottom: 188px;
   box-sizing: border-box;
-  margin-bottom: 120px;
 }
 .effective-solutions-title {
   max-width: 496px;
@@ -194,14 +193,12 @@ img {
 .principles-of-works-list {
   display: flex;
   gap: 24px;
-  margin-bottom: 120px;
 }
 .principle-of-works {
   flex-basis: calc((100% - 72px) / 4);
 }
 .principles-of-works-title {
   margin-bottom: 8px;
-  text-align: center;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -216,10 +213,8 @@ img {
 .our-team {
   background-color: var(--cloud);
   padding: 120px 0 120px 0;
-  margin-bottom: 84px;
 }
 .our-team-list {
-  background-color: var(--white);
   display: flex;
   gap: 24px;
 }
@@ -241,6 +236,7 @@ img {
 
 .team-name-role {
   padding: 32px 0;
+  background-color: var(--white);
 }
 .our-team-name {
   font-weight: 500;
