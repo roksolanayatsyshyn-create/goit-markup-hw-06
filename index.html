@@ -430,11 +430,33 @@
             </li>
           </ul>
         </div>
+        <div class="fotter-forma">
+          <p class="footer-forma-subtitle">Subscribe</p>
+          <form class="form-wrapper-footer">
+            <label class="form-label-wrapper-footer" for="email-footer"></label>
+
+            <input
+              class="form-input-wrapper-fotter"
+              name="email-footer"
+              id="email-footer"
+              type="email"
+              placeholder="E-mail"
+              required
+            />
+            <button class="footer-button" type="submit">
+              <p>Subscribe</p>
+
+              <svg class="icon-footer-forma" width="24" height="24">
+                <use href="./images/icons.svg#icon-footer-button"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
 
     <!-- Modal -->
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button class="modal-close-button" type="button">
           <svg class="icon-close" width="24" height="24">
@@ -480,7 +502,7 @@
           </div>
           <div class="form-field-comment">
             <label class="form-label" for="comment">Comment</label>
-            <textarea class="form-comment" name="Comment" id="Comment" placeholder="Text input" required></textarea>
+            <textarea class="form-comment" name="Comment" id="comment" placeholder="Text input" required></textarea>
           </div>
           <div class="form-checkbox-wrapper">
             <input
