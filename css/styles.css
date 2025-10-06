@@ -627,6 +627,7 @@ button {
     background: var(--ocean);
   }
 }
+
 @media screen and (max-width: 767px) {
   .main-nav-list {
     display: none;
@@ -743,6 +744,11 @@ button {
   }
   .social-icon-menu {
     fill: var(--cloud);
+  }
+}
+@media screen and (min-resolitions: 192dpi) {
+  .hero {
+    background-image: url(../images/hero-effective-solutions/mob/Dark-bg2x.jpg 2x);
   }
 }
 /* ================================================//MOBILE */
@@ -938,10 +944,19 @@ button {
     max-width: 360px;
   }
 }
-
+@media screen (min-width: 768px) and (min-resolitions: 192dpi) {
+  .hero {
+    background-image: url(../images/hero-effective-solutions/tab/Dark-bg2x.jpg 2x);
+  }
+}
 /* ================================================//TABLET */
 
 /* ================================================DESKTOP */
+@media screen (min-width: 115px) and (min-resolitions: 192dpi) {
+  .hero {
+    background-image: url(../images/hero-effective-solutions/desc/Dark-bg2x.jpg 2x);
+  }
+}
 @media screen and (min-width: 1158px) {
   .container {
     width: 1158px;
