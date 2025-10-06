@@ -918,6 +918,11 @@ button {
     row-gap: 72px;
     justify-content: flex-start;
   }
+  .container-footer-logo {
+    width: 264px;
+    text-align: left;
+  }
+
   .container-footer-social {
     align-self: start;
   }
@@ -944,6 +949,9 @@ button {
   }
   .slogan {
     max-width: 360px;
+  }
+  .backdrop-menu-header-mob.is-open {
+    display: none;
   }
 }
 @media screen (min-width: 768px) and (min-resolution: 192dpi) {
